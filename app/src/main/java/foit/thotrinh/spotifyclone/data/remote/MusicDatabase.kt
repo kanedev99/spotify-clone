@@ -5,7 +5,7 @@ import foit.thotrinh.spotifyclone.data.entities.Song
 import foit.thotrinh.spotifyclone.util.Constants.SONG_COLLECTION
 import kotlinx.coroutines.tasks.await
 
-class MediaDatabase {
+class MusicDatabase {
     private val fileStore = FirebaseFirestore.getInstance()
     private val songCollection = fileStore.collection(SONG_COLLECTION)
 
